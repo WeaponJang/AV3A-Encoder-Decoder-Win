@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="src\avs3_bitstream_dec.c" />
     <ClCompile Include="src\avs3_dec.c" />
+    <ClCompile Include="src\avs3_dec_lib.c" />
     <ClCompile Include="src\avs3_hoa_dec.c" />
     <ClCompile Include="src\avs3_init_dec.c" />
     <ClCompile Include="src\avs3_io_dec.c" />
