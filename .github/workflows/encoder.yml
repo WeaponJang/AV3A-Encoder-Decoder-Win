@@ -1,6 +1,10 @@
 name: Build AVS3 Encoder (Windows)
 
 on:
+push:
+    branches: ["master"]
+    paths:
+      - ".github/workflows/encoder.yml"
   workflow_dispatch:
 
 jobs:
